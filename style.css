@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71e6af, #50e42b);
+}
+.container{
+  width: 90%;
+  height: 90%;
+  background-color: rgba(251, 251, 251, 0.288);
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  align-items: center;
+  margin-left: 20%;
+
+}
+
+img.image_kishan {
+  margin-top: 4%;
+  margin-left: 50em;
+  height: 29em;
+}
+
+img.image_social {
+  height: 60px;
+  margin-left: 40px;
+  margin-top: -500px;
+  cursor: pointer;
+}
+
+
