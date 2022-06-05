@@ -163,19 +163,10 @@ height: 29.688rem;
 }
 
 
-
-
-
-
-
-
- 
-
-
 @media only screen and (max-width:1240px ) {
-.image{
-  display: none;
-}
+  .image{
+    display: none;
+  }
 }
 
 @media only screen and (max-width:646px ) {
@@ -186,7 +177,7 @@ height: 29.688rem;
     position: relative;
     right: 20px;
   }
-  }
+}
 
 
 
@@ -212,46 +203,44 @@ height: 29.688rem;
     position: absolute;
     bottom: 520px;
     /* bottom: 575px; */
-  
+
   }
     
-    .container{
-  
-     /* background-color: rgba(251, 251, 251, 0.288); */
-   background-image: url(https://cdn1.vectorstock.com/i/1000x1000/39/85/new-sunny-abstract-green-nature-background-vector-15103985.jpg);
+  .container{
+
+  /* background-color: rgba(251, 251, 251, 0.288); */
+  background-image: url(https://cdn1.vectorstock.com/i/1000x1000/39/85/new-sunny-abstract-green-nature-background-vector-15103985.jpg);
+  }
+
+  .name{
+    display: none;
+
+  }
+      
+  .text{
+    display: none;
+  }
+
+  /* background-color */
+  .image{
+    display: none;
     }
 
-    .name{
-      display: none;
 
-    }
-    
-.text{
-  display: none;
-}
 
-/* background-color */
-.image{
+  .bg{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#50e42b;
+
+  }
+  .bg2 {
   display: none;
   }
 
-
-
-.bg{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:#50e42b);
-
-}
-.bg2 {
-display: none;
-}
-
-.bg3 {
-  display: none;
-}
-
-
+  .bg3 {
+    display: none;
   }
+}
