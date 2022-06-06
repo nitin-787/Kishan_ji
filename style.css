@@ -12,8 +12,8 @@ body{
   box-sizing: border-box;
   width: 90%;
   height: 90%;
-  background-image: url(./assets/background.png);
-  /* background-color: rgba(251, 251, 251, 0.288); */
+  /* background-image: url(./assets/background.png); */
+  background-color: rgba(251, 251, 251, 0.288);
   /* background-color: #F9F9F9; */
   padding: 1.875rem 1.875rem;
   border-radius: 0.625rem;
